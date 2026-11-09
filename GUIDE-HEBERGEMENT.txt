@@ -1,0 +1,15 @@
+CAMPUS PRATIQUE — PUBLICATION GRATUITE
+
+Le projet Supabase « campus-pratique » est déjà créé sur l’offre gratuite, en région Paris. La table des annonces est configurée avec les règles de sécurité. Le fichier config.js contient l’URL du projet et sa clé publique publishable.
+
+À FAIRE POUR PUBLIER LE SITE
+1. Télécharge et décompresse le paquet.
+2. Crée un dépôt PUBLIC GitHub nommé campus-pratique.
+3. Téléverse à la racine du dépôt les fichiers index.html, config.js, supabase-setup.sql et ce guide.
+4. Dans GitHub, ouvre Settings > Pages. Choisis Deploy from a branch, puis main et /(root), et clique Save. GitHub affichera l’adresse du site après le déploiement.
+5. Dans Supabase, ouvre Authentication > URL Configuration. Définis l’adresse du site comme Site URL et ajoute l’adresse du site aux Redirect URLs. Pour le site Pages, ajoute son domaine avec le chemin du dépôt, par exemple https://TON-COMPTE.github.io/campus-pratique/**
+6. Ouvre l’adresse publiée, crée un compte et confirme l’e-mail. Connecte-toi puis publie une annonce test.
+
+Le site est conçu pour mobile et ordinateur. La clé publishable est prévue pour le navigateur; ne la remplace jamais par une clé secret ou service_role. La table utilise Row Level Security et les annonces sont publiques, mais chaque compte ne peut supprimer que ses propres annonces.
+
+L’offre gratuite Supabase a des limites et peut mettre en pause un projet peu utilisé pendant une semaine. Le site est hébergé gratuitement par GitHub Pages si le dépôt est public. L’app ne traite pas les paiements et les photos doivent être ajoutées comme lien public.
